@@ -5,7 +5,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
 
-def hello1(request,username):
+def hello1(request):
     now = datetime.now()
 
 
