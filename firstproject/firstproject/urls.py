@@ -19,5 +19,5 @@ from myapp.views import hello1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello1/<str:username>',hello1)
+    path('',hello1)
 ]
